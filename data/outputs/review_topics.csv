@@ -1,0 +1,11 @@
+sentiment,topic_id,top_words,review_count,theme
+negative,4,"box, time, old, cans, package, disappointed, way, price",975,Damaged Packaging on Arrival
+negative,3,"tea, bad, water, money, waste, tastes, horrible, bags",818,Poor Value for Money
+negative,0,"coffee, cup, weak, stale, bad, bitter, brand, box",634,Freshness & Expiry Issues
+negative,2,"ingredients, food, artificial, stuff, flavors, corn, formula, milk",616,Artificial Ingredients Concern
+negative,1,"food, dog, china, treats, sick, days, price, something",556,Pet Food Quality Issues
+positive,2,"best, time, price, use, little, much, day, way",29506,Great Value for Money
+positive,1,"delicious, free, sweet, snack, tasty, healthy, mix, milk",5034,Excellent Taste & Flavor
+positive,4,"coffee, cup, strong, rich, blend, cream, smooth, bold",2138,Coffee & Hot Drinks
+positive,3,"food, dog, treats, treat, butter, loves, peanut, sauce",2055,Pet Food Satisfaction
+positive,0,"tea, water, hot, drink, teas, cold, cup, honey",1703,Coffee & Hot Drinks

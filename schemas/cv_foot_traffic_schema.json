@@ -1,0 +1,18 @@
+{
+    "file": "cv_foot_traffic.csv",
+    "description": "Foot traffic counts per store zone and time window generated from computer vision detection results.",
+    "columns": {
+        "timestamp": {
+            "type": "datetime",
+            "description": "Time of the observation (frame time or generated time bucket)."
+        },
+        "zone_id": {
+            "type": "string",
+            "description": "Identifier of the store zone (e.g., Zone_A, Entrance, Checkout)."
+        },
+        "people_count": {
+            "type": "integer",
+            "description": "Number of detected people within the zone at the given timestamp."
+        }
+    }
+}

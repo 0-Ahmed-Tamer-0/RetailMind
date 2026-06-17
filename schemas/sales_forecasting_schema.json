@@ -1,0 +1,22 @@
+{
+    "file": "sales_forecast.csv",
+    "description": "Daily sales forecasting output per product, including actual and predicted sales.",
+    "columns": {
+        "date": {
+            "type": "date",
+            "description": "Date of the sales record."
+        },
+        "product_id": {
+            "type": "string",
+            "description": "Unique identifier of the product being forecasted."
+        },
+        "actual_sales": {
+            "type": "float",
+            "description": "Actual observed sales value for that date and product."
+        },
+        "predicted_sales": {
+            "type": "float",
+            "description": "Forecasted sales value for that date and product."
+        }
+    }
+}

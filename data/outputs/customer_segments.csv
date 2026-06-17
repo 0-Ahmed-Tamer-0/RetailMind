@@ -1,0 +1,4 @@
+cluster_id,customer_count,avg_recency,avg_frequency,avg_monetary,segment_name
+0,2012,461.5,2.2,763.09,At Risk
+1,3848,66.1,7.7,3324.22,Loyal Customers
+2,18,25.4,162.6,189805.09,Champions

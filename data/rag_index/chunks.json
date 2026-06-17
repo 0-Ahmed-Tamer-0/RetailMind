@@ -1,0 +1,298 @@
+[
+  {
+    "text": "Sales forecast for product 22086: predicted 80,873 units over 273 days, confidence range 39–728 units. Most recent actual sales: 70.8 units.",
+    "source": "sales_forecast",
+    "product_id": "22086"
+  },
+  {
+    "text": "Sales forecast for product 22423: predicted 286,650 units over 507 days, confidence range 62–1,252 units. Most recent actual sales: 127.5 units.",
+    "source": "sales_forecast",
+    "product_id": "22423"
+  },
+  {
+    "text": "Sales forecast for product 23166: predicted 81,400 units over 115 days, confidence range 674–770 units. Most recent actual sales: 49.9 units.",
+    "source": "sales_forecast",
+    "product_id": "23166"
+  },
+  {
+    "text": "Sales forecast for product 23843: predicted 0 units over 1 days, confidence range nan–nan units. Most recent actual sales: 168,469.6 units.",
+    "source": "sales_forecast",
+    "product_id": "23843"
+  },
+  {
+    "text": "Sales forecast for product 47566: predicted 104,339 units over 484 days, confidence range 34–481 units. Most recent actual sales: 69.3 units.",
+    "source": "sales_forecast",
+    "product_id": "47566"
+  },
+  {
+    "text": "Sales forecast for product 84879: predicted 127,217 units over 579 days, confidence range 8–645 units. Most recent actual sales: 27.0 units.",
+    "source": "sales_forecast",
+    "product_id": "84879"
+  },
+  {
+    "text": "Sales forecast for product 85099B: predicted 170,701 units over 581 days, confidence range 15–678 units. Most recent actual sales: 20.8 units.",
+    "source": "sales_forecast",
+    "product_id": "85099B"
+  },
+  {
+    "text": "Sales forecast for product 85123A: predicted 252,115 units over 603 days, confidence range 13–1,110 units. Most recent actual sales: 3.0 units.",
+    "source": "sales_forecast",
+    "product_id": "85123A"
+  },
+  {
+    "text": "Sales forecast for product M: predicted 162,301 units over 346 days, confidence range 0–2,379 units. Most recent actual sales: 1.3 units.",
+    "source": "sales_forecast",
+    "product_id": "M"
+  },
+  {
+    "text": "Sales forecast for product POST: predicted 126,727 units over 512 days, confidence range 2–741 units. Most recent actual sales: 177.0 units.",
+    "source": "sales_forecast",
+    "product_id": "POST"
+  },
+  {
+    "text": "Inventory status for product 22086 (ABC class C): current stock 1,680 units, 7-day forecast demand 3,528 units. Decision: REORDER. C-class product · forecast 3528 units · safety buffer 50% · required 5291 > stock 1680. No discount needed.",
+    "source": "inventory",
+    "product_id": "22086",
+    "decision": "REORDER",
+    "abc_class": "C"
+  },
+  {
+    "text": "Inventory status for product 22423 (ABC class A): current stock 756 units, 7-day forecast demand 3,056 units. Decision: REORDER. A-class product · forecast 3056 units · safety buffer 50% · required 4583 > stock 756. No discount needed.",
+    "source": "inventory",
+    "product_id": "22423",
+    "decision": "REORDER",
+    "abc_class": "A"
+  },
+  {
+    "text": "Inventory status for product 23843 (ABC class C): current stock 1,133,930 units, 7-day forecast demand 0 units. Decision: OK. C-class product · stock 1133930 covers forecast 0 + buffer. No discount needed.",
+    "source": "inventory",
+    "product_id": "23843",
+    "decision": "OK",
+    "abc_class": "C"
+  },
+  {
+    "text": "Inventory status for product 47566 (ABC class C): current stock 728 units, 7-day forecast demand 245 units. Decision: OK. C-class product · stock 728 covers forecast 245 + buffer. Discount recommended: 30% markdown.",
+    "source": "inventory",
+    "product_id": "47566",
+    "decision": "OK",
+    "abc_class": "C"
+  },
+  {
+    "text": "Inventory status for product 84879 (ABC class B): current stock 1,974 units, 7-day forecast demand 2,539 units. Decision: REORDER. B-class product · forecast 2539 units · safety buffer 50% · required 3808 > stock 1974. No discount needed.",
+    "source": "inventory",
+    "product_id": "84879",
+    "decision": "REORDER",
+    "abc_class": "B"
+  },
+  {
+    "text": "Inventory status for product 85099B (ABC class B): current stock 2,338 units, 7-day forecast demand 2,177 units. Decision: REORDER. B-class product · forecast 2177 units · safety buffer 50% · required 3266 > stock 2338. No discount needed.",
+    "source": "inventory",
+    "product_id": "85099B",
+    "decision": "REORDER",
+    "abc_class": "B"
+  },
+  {
+    "text": "Inventory status for product 85123A (ABC class A): current stock 2,226 units, 7-day forecast demand 6,120 units. Decision: REORDER. A-class product · forecast 6120 units · safety buffer 50% · required 9180 > stock 2226. No discount needed.",
+    "source": "inventory",
+    "product_id": "85123A",
+    "decision": "REORDER",
+    "abc_class": "A"
+  },
+  {
+    "text": "Inventory status for product M (ABC class B): current stock 378 units, 7-day forecast demand 2,919 units. Decision: REORDER. B-class product · forecast 2919 units · safety buffer 50% · required 4378 > stock 378. No discount needed.",
+    "source": "inventory",
+    "product_id": "M",
+    "decision": "REORDER",
+    "abc_class": "B"
+  },
+  {
+    "text": "Inventory status for product POST (ABC class C): current stock 154 units, 7-day forecast demand 1,979 units. Decision: REORDER. C-class product · forecast 1979 units · safety buffer 50% · required 2969 > stock 154. No discount needed.",
+    "source": "inventory",
+    "product_id": "POST",
+    "decision": "REORDER",
+    "abc_class": "C"
+  },
+  {
+    "text": "Customer segment 'At Risk': 2,012 customers, average recency 462 days since last purchase, average purchase frequency 2.2 orders, average spend £763.09.",
+    "source": "segments",
+    "segment_name": "At Risk",
+    "cluster_id": 0
+  },
+  {
+    "text": "Customer segment 'Loyal Customers': 3,848 customers, average recency 66 days since last purchase, average purchase frequency 7.7 orders, average spend £3,324.22.",
+    "source": "segments",
+    "segment_name": "Loyal Customers",
+    "cluster_id": 1
+  },
+  {
+    "text": "Customer segment 'Champions': 18 customers, average recency 25 days since last purchase, average purchase frequency 162.6 orders, average spend £189,805.09.",
+    "source": "segments",
+    "segment_name": "Champions",
+    "cluster_id": 2
+  },
+  {
+    "text": "Customer complaints summary (negative reviews, 3,599 total):- Damaged Packaging on Arrival (975 reviews, 27%): box, time, old, cans, package, disappointed, way, price- Poor Value for Money (818 reviews, 23%): tea, bad, water, money, waste, tastes, horrible, bags- Freshness & Expiry Issues (634 reviews, 18%): coffee, cup, weak, stale, bad, bitter, brand, box- Artificial Ingredients Concern (616 reviews, 17%): ingredients, food, artificial, stuff, flavors, corn, formula, milk- Pet Food Quality Issues (556 reviews, 15%): food, dog, china, treats, sick, days, price, something",
+    "source": "review_topics",
+    "sentiment": "negative"
+  },
+  {
+    "text": "Customer praises summary (positive reviews, 40,436 total):- Great Value for Money (29,506 reviews, 73%): best, time, price, use, little, much, day, way- Excellent Taste & Flavor (5,034 reviews, 12%): delicious, free, sweet, snack, tasty, healthy, mix, milk- Coffee & Hot Drinks (2,138 reviews, 5%): coffee, cup, strong, rich, blend, cream, smooth, bold- Pet Food Satisfaction (2,055 reviews, 5%): food, dog, treats, treat, butter, loves, peanut, sauce- Coffee & Hot Drinks (1,703 reviews, 4%): tea, water, hot, drink, teas, cold, cup, honey",
+    "source": "review_topics",
+    "sentiment": "positive"
+  },
+  {
+    "text": "Review trend for November 2010: average rating 4.16/5, VADER sentiment 0.705, 85.2% positive reviews, 7.3% negative, based on 782 reviews.",
+    "source": "review_insights",
+    "date": "2010-11-30"
+  },
+  {
+    "text": "Review trend for December 2010: average rating 4.07/5, VADER sentiment 0.691, 80.8% positive reviews, 8.5% negative, based on 902 reviews.",
+    "source": "review_insights",
+    "date": "2010-12-31"
+  },
+  {
+    "text": "Review trend for January 2011: average rating 4.15/5, VADER sentiment 0.692, 84.4% positive reviews, 8.3% negative, based on 1,085 reviews.",
+    "source": "review_insights",
+    "date": "2011-01-31"
+  },
+  {
+    "text": "Review trend for February 2011: average rating 4.09/5, VADER sentiment 0.678, 83.1% positive reviews, 8.1% negative, based on 1,053 reviews.",
+    "source": "review_insights",
+    "date": "2011-02-28"
+  },
+  {
+    "text": "Review trend for March 2011: average rating 4.14/5, VADER sentiment 0.675, 83.5% positive reviews, 7.2% negative, based on 1,132 reviews.",
+    "source": "review_insights",
+    "date": "2011-03-31"
+  },
+  {
+    "text": "Review trend for April 2011: average rating 4.14/5, VADER sentiment 0.696, 84.1% positive reviews, 7.7% negative, based on 993 reviews.",
+    "source": "review_insights",
+    "date": "2011-04-30"
+  },
+  {
+    "text": "Review trend for May 2011: average rating 4.20/5, VADER sentiment 0.692, 85.1% positive reviews, 6.6% negative, based on 1,018 reviews.",
+    "source": "review_insights",
+    "date": "2011-05-31"
+  },
+  {
+    "text": "Review trend for June 2011: average rating 4.12/5, VADER sentiment 0.663, 82.3% positive reviews, 7.2% negative, based on 1,002 reviews.",
+    "source": "review_insights",
+    "date": "2011-06-30"
+  },
+  {
+    "text": "Review trend for July 2011: average rating 4.17/5, VADER sentiment 0.660, 83.0% positive reviews, 8.6% negative, based on 1,049 reviews.",
+    "source": "review_insights",
+    "date": "2011-07-31"
+  },
+  {
+    "text": "Review trend for August 2011: average rating 4.12/5, VADER sentiment 0.678, 84.4% positive reviews, 7.8% negative, based on 1,278 reviews.",
+    "source": "review_insights",
+    "date": "2011-08-31"
+  },
+  {
+    "text": "Review trend for September 2011: average rating 4.25/5, VADER sentiment 0.708, 87.2% positive reviews, 6.8% negative, based on 1,265 reviews.",
+    "source": "review_insights",
+    "date": "2011-09-30"
+  },
+  {
+    "text": "Review trend for October 2011: average rating 4.15/5, VADER sentiment 0.693, 84.8% positive reviews, 7.8% negative, based on 1,478 reviews.",
+    "source": "review_insights",
+    "date": "2011-10-31"
+  },
+  {
+    "text": "Review trend for November 2011: average rating 4.10/5, VADER sentiment 0.675, 82.8% positive reviews, 8.2% negative, based on 1,409 reviews.",
+    "source": "review_insights",
+    "date": "2011-11-30"
+  },
+  {
+    "text": "Review trend for December 2011: average rating 4.04/5, VADER sentiment 0.657, 80.8% positive reviews, 10.1% negative, based on 1,715 reviews.",
+    "source": "review_insights",
+    "date": "2011-12-31"
+  },
+  {
+    "text": "Review trend for January 2012: average rating 4.10/5, VADER sentiment 0.669, 82.8% positive reviews, 9.0% negative, based on 1,906 reviews.",
+    "source": "review_insights",
+    "date": "2012-01-31"
+  },
+  {
+    "text": "Review trend for February 2012: average rating 4.13/5, VADER sentiment 0.695, 83.6% positive reviews, 8.8% negative, based on 1,699 reviews.",
+    "source": "review_insights",
+    "date": "2012-02-29"
+  },
+  {
+    "text": "Review trend for March 2012: average rating 4.07/5, VADER sentiment 0.673, 82.9% positive reviews, 8.4% negative, based on 1,787 reviews.",
+    "source": "review_insights",
+    "date": "2012-03-31"
+  },
+  {
+    "text": "Review trend for April 2012: average rating 4.12/5, VADER sentiment 0.679, 83.9% positive reviews, 8.4% negative, based on 1,694 reviews.",
+    "source": "review_insights",
+    "date": "2012-04-30"
+  },
+  {
+    "text": "Review trend for May 2012: average rating 4.10/5, VADER sentiment 0.698, 83.9% positive reviews, 8.2% negative, based on 1,641 reviews.",
+    "source": "review_insights",
+    "date": "2012-05-31"
+  },
+  {
+    "text": "Review trend for June 2012: average rating 4.04/5, VADER sentiment 0.664, 81.7% positive reviews, 9.5% negative, based on 1,557 reviews.",
+    "source": "review_insights",
+    "date": "2012-06-30"
+  },
+  {
+    "text": "Review trend for July 2012: average rating 4.17/5, VADER sentiment 0.677, 83.4% positive reviews, 7.9% negative, based on 1,768 reviews.",
+    "source": "review_insights",
+    "date": "2012-07-31"
+  },
+  {
+    "text": "Review trend for August 2012: average rating 4.17/5, VADER sentiment 0.671, 84.1% positive reviews, 8.3% negative, based on 1,751 reviews.",
+    "source": "review_insights",
+    "date": "2012-08-31"
+  },
+  {
+    "text": "Review trend for September 2012: average rating 4.12/5, VADER sentiment 0.658, 82.1% positive reviews, 8.8% negative, based on 1,884 reviews.",
+    "source": "review_insights",
+    "date": "2012-09-30"
+  },
+  {
+    "text": "Review trend for October 2012: average rating 4.16/5, VADER sentiment 0.663, 83.7% positive reviews, 8.6% negative, based on 1,811 reviews.",
+    "source": "review_insights",
+    "date": "2012-10-31"
+  },
+  {
+    "text": "Top keywords from negative customer reviews (complaints): horrible, worst, china, awful, terrible, disappointed, waste money, made china, bad, stale.",
+    "source": "review_keywords",
+    "sentiment": "negative"
+  },
+  {
+    "text": "Top keywords from positive customer reviews (praise): gluten free, tea, highly recommend, peanut butter, coffee, tea tea, best ever, coffee coffee, food, much better.",
+    "source": "review_keywords",
+    "sentiment": "positive"
+  },
+  {
+    "text": "Foot traffic in zone 1: average 1.0 people per frame, peak count 1 people, observed across 64 frames.",
+    "source": "cv_foot_traffic",
+    "zone_id": "1"
+  },
+  {
+    "text": "Foot traffic in zone 2: average 2.1 people per frame, peak count 3 people, observed across 73 frames.",
+    "source": "cv_foot_traffic",
+    "zone_id": "2"
+  },
+  {
+    "text": "Foot traffic in zone 41_A: average 12.3 people per frame, peak count 15 people, observed across 41 frames.",
+    "source": "cv_foot_traffic",
+    "zone_id": "41_A"
+  },
+  {
+    "text": "Foot traffic in zone 41_B: average 17.3 people per frame, peak count 20 people, observed across 41 frames.",
+    "source": "cv_foot_traffic",
+    "zone_id": "41_B"
+  },
+  {
+    "text": "Foot traffic in zone 41_C: average 17.1 people per frame, peak count 20 people, observed across 41 frames.",
+    "source": "cv_foot_traffic",
+    "zone_id": "41_C"
+  }
+]

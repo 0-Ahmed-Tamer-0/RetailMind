@@ -1,0 +1,26 @@
+{
+    "file": "review_insights.csv",
+    "description": "Daily aggregated review metrics including rating and sentiment distribution.",
+    "columns": {
+        "date": {
+            "type": "date",
+            "description": "Date of the aggregated reviews."
+        },
+        "avg_rating": {
+            "type": "float",
+            "description": "Average rating of reviews for that date."
+        },
+        "positive_ratio": {
+            "type": "float",
+            "description": "Fraction of reviews labeled positive (0 to 1)."
+        },
+        "negative_ratio": {
+            "type": "float",
+            "description": "Fraction of reviews labeled negative (0 to 1)."
+        },
+        "review_count": {
+            "type": "integer",
+            "description": "Number of reviews included in the aggregation for that date."
+        }
+    }
+}

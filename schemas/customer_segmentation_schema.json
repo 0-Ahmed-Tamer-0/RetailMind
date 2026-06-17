@@ -1,0 +1,38 @@
+{
+    "file": "customer_segments.csv",
+    "description": "Customer segmentation summary generated using KMeans clustering with automatic segment naming.",
+    "columns": {
+        "cluster_id": {
+            "type": "integer",
+            "description": "Internal cluster identifier (no inherent business meaning)."
+        },
+        "avg_age": {
+            "type": "float",
+            "description": "Average age of customers in the cluster."
+        },
+        "avg_purchase_frequency": {
+            "type": "float",
+            "description": "Average purchase frequency for customers in the cluster."
+        },
+        "avg_purchase_amount": {
+            "type": "float",
+            "description": "Average purchase amount (or total purchase amount feature) for customers in the cluster."
+        },
+        "promo_usage_rate": {
+            "type": "float",
+            "description": "Proportion of customers who used promotions (0 to 1)."
+        },
+        "avg_satisfaction": {
+            "type": "float",
+            "description": "Average satisfaction score for customers in the cluster."
+        },
+        "customer_count": {
+            "type": "integer",
+            "description": "Number of customers in the cluster."
+        },
+        "segment_name": {
+            "type": "string",
+            "description": "Business-friendly name assigned based on cluster behavior (e.g., Frequent Buyers, High-Spending Customers)."
+        }
+    }
+}

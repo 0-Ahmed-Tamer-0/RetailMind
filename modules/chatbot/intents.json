@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "name": "AI Retail Decision Support Chatbot",
+    "version": "1.2",
+    "notes": "Supported intents + sample queries. The app uses synonyms + fuzzy scoring in response_logic.py, so full sentences work too."
+  },
+  "intents": [
+    {
+      "tag": "greeting",
+      "description": "Simple greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "salam"
+      ]
+    },
+    {
+      "tag": "help",
+      "description": "Show chatbot capabilities",
+      "patterns": [
+        "help",
+        "what can you do",
+        "commands",
+        "features"
+      ]
+    },
+    {
+      "tag": "sales_top10",
+      "description": "Top products by predicted demand",
+      "patterns": [
+        "top 10 products",
+        "top products forecast",
+        "highest predicted sales",
+        "forecast top"
+      ]
+    },
+    {
+      "tag": "sales_product_trend",
+      "description": "Show actual vs predicted sales trend for a product",
+      "patterns": [
+        "plot product",
+        "sales trend for",
+        "forecast for product",
+        "actual vs predicted"
+      ]
+    },
+    {
+      "tag": "inventory_top",
+      "description": "Show products recommended for reorder",
+      "patterns": [
+        "what should we reorder",
+        "reorder list",
+        "restock suggestions",
+        "products running out",
+        "inventory recommendation",
+        "stock recommendation"
+      ]
+    },
+    {
+      "tag": "discount_top",
+      "description": "Show products recommended for discount",
+      "patterns": [
+        "discount list",
+        "which products discount",
+        "promo recommendations",
+        "markdown items",
+        "promotion suggestion",
+        "apply discount"
+      ]
+    },
+    {
+      "tag": "reviews_summary",
+      "description": "Summarize review sentiment and rating trend",
+      "patterns": [
+        "review summary",
+        "customer sentiment",
+        "how are reviews",
+        "sentiment trend"
+      ]
+    },
+    {
+      "tag": "reviews_keywords_negative",
+      "description": "Top negative keywords (complaints)",
+      "patterns": [
+        "top complaints",
+        "most common problems",
+        "negative keywords",
+        "refund issues",
+        "delivery problems",
+        "why customers angry",
+        "most negative"
+      ]
+    },
+    {
+      "tag": "reviews_keywords_positive",
+      "description": "Top positive keywords (likes)",
+      "patterns": [
+        "top likes",
+        "what customers like",
+        "best things customers mention",
+        "positive keywords",
+        "most positive"
+      ]
+    },
+    {
+      "tag": "segments_overview",
+      "description": "Describe customer segments",
+      "patterns": [
+        "customer segments",
+        "describe segments",
+        "segmentation summary",
+        "who are my customers"
+      ]
+    },
+    {
+      "tag": "busiest_zones",
+      "description": "Show busiest zones table from cv_foot_traffic.csv",
+      "patterns": [
+        "busiest zones",
+        "top zones",
+        "most crowded zones",
+        "highest traffic zones",
+        "zone traffic",
+        "which zone is busiest",
+        "show busiest zones"
+      ]
+    },
+    {
+      "tag": "show_overlay",
+      "description": "Display zone overlay image (users may say heatmap but we show overlays)",
+      "patterns": [
+        "show overlay",
+        "zone overlay",
+        "overlay for zone",
+        "show overlay for zone 1",
+        "show overlay for zone 41a",
+        "show heatmap for zone 1",
+        "heatmap for zone 1",
+        "zone 1 heatmap",
+        "zone 41 a heatmap"
+      ]
+    }
+  ]
+}

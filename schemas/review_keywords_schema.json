@@ -1,0 +1,18 @@
+{
+    "file": "review_keywords.csv",
+    "description": "Top keywords extracted from reviews, separated by sentiment group.",
+    "columns": {
+        "sentiment": {
+            "type": "string",
+            "description": "Sentiment group the keyword was extracted from (positive or negative)."
+        },
+        "keyword": {
+            "type": "string",
+            "description": "Keyword frequently appearing in the selected sentiment group."
+        },
+        "count": {
+            "type": "integer",
+            "description": "Number of times the keyword appears in the selected sentiment group."
+        }
+    }
+}

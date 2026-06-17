@@ -1,0 +1,10 @@
+product_id,abc_class,current_stock,predicted_demand_7d,safety_stock_pct,safety_stock,required_stock,decision,recommended_order,reason
+22086,C,1680,3527.6,0.5,1763.8,5291.4,REORDER,3612,C-class product · forecast 3528 units · safety buffer 50% · required 5291 > stock 1680
+22423,A,756,3055.6,0.5,1527.8,4583.4,REORDER,3828,A-class product · forecast 3056 units · safety buffer 50% · required 4583 > stock 756
+23843,C,1133930,0.0,,,,OK,0,C-class product · stock 1133930 covers forecast 0 + buffer
+47566,C,728,244.9,0.5,122.5,367.4,OK,0,C-class product · stock 728 covers forecast 245 + buffer
+84879,B,1974,2538.7,0.5,1269.3,3808.0,REORDER,1835,B-class product · forecast 2539 units · safety buffer 50% · required 3808 > stock 1974
+85099B,B,2338,2177.2,0.5,1088.6,3265.8,REORDER,928,B-class product · forecast 2177 units · safety buffer 50% · required 3266 > stock 2338
+85123A,A,2226,6120.3,0.5,3060.1,9180.4,REORDER,6955,A-class product · forecast 6120 units · safety buffer 50% · required 9180 > stock 2226
+M,B,378,2919.0,0.5,1459.5,4378.4,REORDER,4001,B-class product · forecast 2919 units · safety buffer 50% · required 4378 > stock 378
+POST,C,154,1979.4,0.5,989.7,2969.1,REORDER,2816,C-class product · forecast 1979 units · safety buffer 50% · required 2969 > stock 154

@@ -1,0 +1,19 @@
+[ Raw Data ]
+      ↓
+[ Individual AI Modules ]
+      ↓
+[ CSV Outputs (Schema-defined) ]
+      ↓
+[ Dashboard + Chatbot ]
+      ↓
+[ Business Owner Decisions ]
+
+
+
+[CV Module] ----\
+[POS Forecast] --+--> [Unified Data Layer] --> [Chatbot]
+[Segmentation] -/
+[Reviews NLP] --/
+
+                           |
+                      [Dashboard]

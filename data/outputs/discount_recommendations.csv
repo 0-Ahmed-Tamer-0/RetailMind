@@ -1,0 +1,10 @@
+product_id,abc_class,current_stock,predicted_demand_7d,discount_action,discount_rate,reason
+22086,C,1680,3527.6,NONE,0,Stock level within acceptable range
+22423,A,756,3055.6,NONE,0,Stock level within acceptable range
+23843,C,1133930,0.0,NONE,0,Stock level within acceptable range
+47566,C,728,244.9,DISCOUNT,30,Overstock · stock 728 is 3.0× forecast demand · C-class markdown rate applied
+84879,B,1974,2538.7,NONE,0,Stock level within acceptable range
+85099B,B,2338,2177.2,NONE,0,Stock level within acceptable range
+85123A,A,2226,6120.3,NONE,0,Stock level within acceptable range
+M,B,378,2919.0,NONE,0,Stock level within acceptable range
+POST,C,154,1979.4,NONE,0,Stock level within acceptable range

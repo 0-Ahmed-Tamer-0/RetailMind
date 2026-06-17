@@ -1,0 +1,22 @@
+{
+    "file": "discount_recommendations.csv",
+    "description": "Discount recommendations generated based on demand and inventory logic.",
+    "columns": {
+        "product_id": {
+            "type": "string",
+            "description": "Unique identifier of the product."
+        },
+        "discount_action": {
+            "type": "string",
+            "description": "Discount decision (e.g., DISCOUNT or NONE)."
+        },
+        "discount_rate": {
+            "type": "float",
+            "description": "Suggested discount percentage (e.g., 20 means 20%)."
+        },
+        "reason": {
+            "type": "string",
+            "description": "Short explanation for the discount recommendation."
+        }
+    }
+}
