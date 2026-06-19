@@ -35,8 +35,8 @@ All five modules communicate through a shared CSV output layer — fully decoupl
 
 ```
 Raw Data (local files)
-   ├─ UCI Online Retail II ──┬─→ Sales Forecasting ──┐
-   │                          ├─→ Inventory Mgmt      │
+   ├─ UCI Online Retail II ──┬─→ Sales Forecasting   ──┐
+   │                          ├─→ Inventory Mgmt       │
    │                          └─→ Customer Segments    │
    ├─ Amazon Fine Food Reviews → Review Analysis       ├─→ data/outputs/*.csv
    └─ CCTV Zone Images ────────→ Foot Traffic CV       │
@@ -145,7 +145,3 @@ Both are real public datasets — no synthetic placeholders.
 
 ---
 
-
-## License
-
-MIT — see [`LICENSE`](./LICENSE) for details.
